@@ -4,7 +4,8 @@
   "description": "e-commerce ésotérisme et bien-être",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass --watch ./sass/main.sass:./public/css/main.css --style compressed"
   },
   "repository": {
     "type": "git",
